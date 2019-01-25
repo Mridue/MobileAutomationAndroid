@@ -1,0 +1,2455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="25" passed="20" failed="5" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report directory: C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\target\surefire-reports\html]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test 1 Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Burger Menu Swipe Upn Down]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Click On Education]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click On Education]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Click On Top Stories]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click On Top Stories]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Click Ontrending]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Get Entertainment]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Entertainment]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Get Life]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Life]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Get Nation World]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Nation World]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Get Opinion]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Opinion]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Get Sports]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Sports]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Get Title]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Title]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click On Latest]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Home Page Swipe Upn Down]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Scroll Menu List]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Tap On Burger Menu]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Tap On Latest]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Tap On Top Stories]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: test Tap On Trending]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: testscroll Menu List]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Menu Items]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: testscroll PNW Magazine]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Pnw Magazine]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: testscroll To Business]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Business Tech]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: testscroll To Get Business News]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Business Tech]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: testscroll To Get News]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Local News]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: testscroll To Local]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Local News]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: testscroll To My Reading List]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Myreading List 1]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: testscroll To Sports]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: get Business Tech]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: click Burger Button]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-01-25T00:41:46Z" name="Seattle Times App Automation Test" finished-at="2019-01-25T00:47:19Z" duration-ms="333359">
+    <groups>
+    </groups>
+    <test started-at="2019-01-25T00:41:46Z" name="GoToHomePage" finished-at="2019-01-25T00:47:19Z" duration-ms="333359">
+      <class name="testcases.TestHomePage">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:41:45Z" name="extentSetup" finished-at="2019-01-24T19:41:46Z" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@963176]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report directory: C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:41:46Z" name="setUp" finished-at="2019-01-24T19:41:52Z" duration-ms="6698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:41:52Z" name="startExtent" finished-at="2019-01-24T19:41:52Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.test1BurgerButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:41:52Z" name="initialize" finished-at="2019-01-24T19:41:52Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="test1BurgerButton()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:41:52Z" name="test1BurgerButton" finished-at="2019-01-24T19:41:53Z" duration-ms="693" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test 1 Burger Button]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1BurgerButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:41:53Z" name="afterEachTestMethod" finished-at="2019-01-24T19:41:55Z" duration-ms="2154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1BurgerButton status=SUCCESS method=TestHomePage.test1BurgerButton()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test 1 Burger Button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:41:55Z" name="setUp" finished-at="2019-01-24T19:42:02Z" duration-ms="7084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:02Z" name="startExtent" finished-at="2019-01-24T19:42:02Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testBurgerMenuSwipeUpnDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:02Z" name="initialize" finished-at="2019-01-24T19:42:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testBurgerMenuSwipeUpnDown()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:02Z" name="testBurgerMenuSwipeUpnDown" finished-at="2019-01-24T19:42:05Z" duration-ms="2900" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Burger Menu Swipe Upn Down]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testBurgerMenuSwipeUpnDown -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:05Z" name="afterEachTestMethod" finished-at="2019-01-24T19:42:07Z" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBurgerMenuSwipeUpnDown status=SUCCESS method=TestHomePage.testBurgerMenuSwipeUpnDown()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Burger Menu Swipe Upn Down]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:07Z" name="setUp" finished-at="2019-01-24T19:42:15Z" duration-ms="7908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:15Z" name="startExtent" finished-at="2019-01-24T19:42:15Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testClickOnEducation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnEducation()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:15Z" name="testClickOnEducation" finished-at="2019-01-24T19:42:16Z" duration-ms="1110" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Click On Education]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click On Education]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnEducation -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:15Z" name="initialize" finished-at="2019-01-24T19:42:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:16Z" name="afterEachTestMethod" finished-at="2019-01-24T19:42:18Z" duration-ms="1815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnEducation status=SUCCESS method=TestHomePage.testClickOnEducation()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Click On Education]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:18Z" name="setUp" finished-at="2019-01-24T19:42:26Z" duration-ms="8155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:26Z" name="startExtent" finished-at="2019-01-24T19:42:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testClickOnTopStories()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnTopStories()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:26Z" name="testClickOnTopStories" finished-at="2019-01-24T19:42:31Z" duration-ms="4941" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Click On Top Stories]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click On Top Stories]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnTopStories -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:26Z" name="initialize" finished-at="2019-01-24T19:42:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:31Z" name="afterEachTestMethod" finished-at="2019-01-24T19:42:33Z" duration-ms="1869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnTopStories status=SUCCESS method=TestHomePage.testClickOnTopStories()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Click On Top Stories]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:33Z" name="setUp" finished-at="2019-01-24T19:42:40Z" duration-ms="7165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:40Z" name="startExtent" finished-at="2019-01-24T19:42:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testClickOntrending()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:40Z" name="initialize" finished-at="2019-01-24T19:42:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testClickOntrending()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:40Z" name="testClickOntrending" finished-at="2019-01-24T19:42:42Z" duration-ms="2171" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Click Ontrending]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOntrending -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:42Z" name="afterEachTestMethod" finished-at="2019-01-24T19:42:44Z" duration-ms="1995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOntrending status=SUCCESS method=TestHomePage.testClickOntrending()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Click Ontrending]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:44Z" name="setUp" finished-at="2019-01-24T19:42:51Z" duration-ms="7054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:51Z" name="startExtent" finished-at="2019-01-24T19:42:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testGetEntertainment()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:51Z" name="initialize" finished-at="2019-01-24T19:42:51Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testGetEntertainment()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:51Z" name="testGetEntertainment" finished-at="2019-01-24T19:42:54Z" duration-ms="3082" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Get Entertainment]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Entertainment]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetEntertainment -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:54Z" name="afterEachTestMethod" finished-at="2019-01-24T19:42:56Z" duration-ms="1831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetEntertainment status=SUCCESS method=TestHomePage.testGetEntertainment()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Get Entertainment]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:42:56Z" name="setUp" finished-at="2019-01-24T19:43:03Z" duration-ms="7178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:03Z" name="initialize" finished-at="2019-01-24T19:43:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:03Z" name="startExtent" finished-at="2019-01-24T19:43:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testGetLife()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testGetLife()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:03Z" name="testGetLife" finished-at="2019-01-24T19:43:06Z" duration-ms="2819" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Get Life]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Life]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetLife -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:06Z" name="afterEachTestMethod" finished-at="2019-01-24T19:43:08Z" duration-ms="1772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetLife status=SUCCESS method=TestHomePage.testGetLife()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Get Life]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:08Z" name="setUp" finished-at="2019-01-24T19:43:15Z" duration-ms="7090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:15Z" name="startExtent" finished-at="2019-01-24T19:43:15Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testGetNationWorld()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:15Z" name="initialize" finished-at="2019-01-24T19:43:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testGetNationWorld()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:15Z" name="testGetNationWorld" finished-at="2019-01-24T19:43:17Z" duration-ms="2143" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Get Nation World]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Nation World]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetNationWorld -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:17Z" name="afterEachTestMethod" finished-at="2019-01-24T19:43:19Z" duration-ms="1987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetNationWorld status=SUCCESS method=TestHomePage.testGetNationWorld()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Get Nation World]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:19Z" name="setUp" finished-at="2019-01-24T19:43:26Z" duration-ms="7364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:26Z" name="startExtent" finished-at="2019-01-24T19:43:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testGetOpinion()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:26Z" name="initialize" finished-at="2019-01-24T19:43:26Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testGetOpinion()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:26Z" name="testGetOpinion" finished-at="2019-01-24T19:43:29Z" duration-ms="3079" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Get Opinion]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Opinion]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetOpinion -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:29Z" name="afterEachTestMethod" finished-at="2019-01-24T19:43:31Z" duration-ms="1867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetOpinion status=SUCCESS method=TestHomePage.testGetOpinion()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Get Opinion]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:31Z" name="setUp" finished-at="2019-01-24T19:43:38Z" duration-ms="7299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:38Z" name="startExtent" finished-at="2019-01-24T19:43:38Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testGetSports()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:38Z" name="initialize" finished-at="2019-01-24T19:43:38Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testGetSports()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:38Z" name="testGetSports" finished-at="2019-01-24T19:43:42Z" duration-ms="3222" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Get Sports]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Sports]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetSports -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:42Z" name="afterEachTestMethod" finished-at="2019-01-24T19:43:44Z" duration-ms="1887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetSports status=SUCCESS method=TestHomePage.testGetSports()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Get Sports]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:44Z" name="setUp" finished-at="2019-01-24T19:43:51Z" duration-ms="7041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:51Z" name="startExtent" finished-at="2019-01-24T19:43:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testGetTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:51Z" name="initialize" finished-at="2019-01-24T19:43:51Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testGetTitle()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:51Z" name="testGetTitle" finished-at="2019-01-24T19:43:53Z" duration-ms="2147" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Get Title]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Title]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click On Latest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:53Z" name="afterEachTestMethod" finished-at="2019-01-24T19:43:54Z" duration-ms="1697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetTitle status=SUCCESS method=TestHomePage.testGetTitle()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Get Title]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:43:54Z" name="setUp" finished-at="2019-01-24T19:44:01Z" duration-ms="7074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:01Z" name="initialize" finished-at="2019-01-24T19:44:01Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:01Z" name="startExtent" finished-at="2019-01-24T19:44:01Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testHomePageSwipeUpnDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testHomePageSwipeUpnDown()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:01Z" name="testHomePageSwipeUpnDown" finished-at="2019-01-24T19:44:04Z" duration-ms="2508" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Home Page Swipe Upn Down]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomePageSwipeUpnDown -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:04Z" name="afterEachTestMethod" finished-at="2019-01-24T19:44:06Z" duration-ms="1751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageSwipeUpnDown status=SUCCESS method=TestHomePage.testHomePageSwipeUpnDown()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Home Page Swipe Upn Down]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:06Z" name="setUp" finished-at="2019-01-24T19:44:13Z" duration-ms="7083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:13Z" name="startExtent" finished-at="2019-01-24T19:44:13Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testScrollMenuList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:13Z" name="initialize" finished-at="2019-01-24T19:44:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testScrollMenuList()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:13Z" name="testScrollMenuList" finished-at="2019-01-24T19:44:14Z" duration-ms="1190" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[javax.xml.transform.TransformerException: Extra illegal tokens: 'READING', 'LIST' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 106 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: c7446714-ab3d-4ac6-b81f-450b9cb05d85]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: javax.xml.transform.TransformerException: Extra illegal tokens: 'READING', 'LIST' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 106 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: c7446714-ab3d-4ac6-b81f-450b9cb05d85
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at base.MobileAPI.scrollToElement(MobileAPI.java:420)
+	at pages.HomePage.scrollMenuList(HomePage.java:150)
+	at testcases.TestHomePage.testScrollMenuList(TestHomePage.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Scroll Menu List]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testScrollMenuList -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:14Z" name="afterEachTestMethod" finished-at="2019-01-24T19:44:18Z" duration-ms="3998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScrollMenuList status=FAILURE method=TestHomePage.testScrollMenuList()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Scroll Menu List]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:18Z" name="setUp" finished-at="2019-01-24T19:44:25Z" duration-ms="7045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:25Z" name="startExtent" finished-at="2019-01-24T19:44:25Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testTapOnBurgerMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:25Z" name="initialize" finished-at="2019-01-24T19:44:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testTapOnBurgerMenu()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:25Z" name="testTapOnBurgerMenu" finished-at="2019-01-24T19:44:35Z" duration-ms="10055" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: 9efac5c5-e210-471e-b026-fd68111d3e6f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: 9efac5c5-e210-471e-b026-fd68111d3e6f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnBurgerMenu(TestHomePage.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Tap On Burger Menu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTapOnBurgerMenu -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:35Z" name="afterEachTestMethod" finished-at="2019-01-24T19:44:39Z" duration-ms="4238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTapOnBurgerMenu status=FAILURE method=TestHomePage.testTapOnBurgerMenu()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Tap On Burger Menu]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:39Z" name="setUp" finished-at="2019-01-24T19:44:47Z" duration-ms="7611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:47Z" name="startExtent" finished-at="2019-01-24T19:44:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testTapOnLatest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:47Z" name="initialize" finished-at="2019-01-24T19:44:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testTapOnLatest()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:47Z" name="testTapOnLatest" finished-at="2019-01-24T19:44:58Z" duration-ms="10550" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.55 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: d3c3afe5-7f45-4675-b449-0d007cdcac38]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.55 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: d3c3afe5-7f45-4675-b449-0d007cdcac38
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnLatest(TestHomePage.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Tap On Latest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTapOnLatest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:44:58Z" name="afterEachTestMethod" finished-at="2019-01-24T19:45:01Z" duration-ms="3897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTapOnLatest status=FAILURE method=TestHomePage.testTapOnLatest()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Tap On Latest]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:01Z" name="setUp" finished-at="2019-01-24T19:45:09Z" duration-ms="7253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:09Z" name="startExtent" finished-at="2019-01-24T19:45:09Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testTapOnTopStories()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:09Z" name="initialize" finished-at="2019-01-24T19:45:09Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testTapOnTopStories()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:09Z" name="testTapOnTopStories" finished-at="2019-01-24T19:45:09Z" duration-ms="521" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class io.appium.java_client.android.AndroidElement cannot be cast to class io.appium.java_client.MobileDriver (io.appium.java_client.android.AndroidElement and io.appium.java_client.MobileDriver are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class io.appium.java_client.android.AndroidElement cannot be cast to class io.appium.java_client.MobileDriver (io.appium.java_client.android.AndroidElement and io.appium.java_client.MobileDriver are in unnamed module of loader 'app')
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnTopStories(TestHomePage.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Tap On Top Stories]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTapOnTopStories -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:09Z" name="afterEachTestMethod" finished-at="2019-01-24T19:45:13Z" duration-ms="3699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTapOnTopStories status=FAILURE method=TestHomePage.testTapOnTopStories()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Tap On Top Stories]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:13Z" name="setUp" finished-at="2019-01-24T19:45:20Z" duration-ms="7210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:20Z" name="startExtent" finished-at="2019-01-24T19:45:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testTapOnTrending()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:20Z" name="initialize" finished-at="2019-01-24T19:45:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testTapOnTrending()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:20Z" name="testTapOnTrending" finished-at="2019-01-24T19:45:31Z" duration-ms="10415" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.41 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: cd340ed1-8cf5-429a-92d1-9efc78f0a66f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.41 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: cd340ed1-8cf5-429a-92d1-9efc78f0a66f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnTrending(TestHomePage.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: test Tap On Trending]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTapOnTrending -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:31Z" name="afterEachTestMethod" finished-at="2019-01-24T19:45:34Z" duration-ms="3906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTapOnTrending status=FAILURE method=TestHomePage.testTapOnTrending()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: test Tap On Trending]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:34Z" name="setUp" finished-at="2019-01-24T19:45:42Z" duration-ms="7466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:42Z" name="startExtent" finished-at="2019-01-24T19:45:42Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testscrollMenuList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:42Z" name="initialize" finished-at="2019-01-24T19:45:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testscrollMenuList()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:42Z" name="testscrollMenuList" finished-at="2019-01-24T19:45:44Z" duration-ms="2056" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: testscroll Menu List]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Menu Items]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testscrollMenuList -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:44Z" name="afterEachTestMethod" finished-at="2019-01-24T19:45:46Z" duration-ms="1765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testscrollMenuList status=SUCCESS method=TestHomePage.testscrollMenuList()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: testscroll Menu List]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:46Z" name="setUp" finished-at="2019-01-24T19:45:53Z" duration-ms="7267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:53Z" name="startExtent" finished-at="2019-01-24T19:45:53Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testscrollPNWMagazine()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:53Z" name="initialize" finished-at="2019-01-24T19:45:53Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testscrollPNWMagazine()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:53Z" name="testscrollPNWMagazine" finished-at="2019-01-24T19:45:58Z" duration-ms="4750" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: testscroll PNW Magazine]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Pnw Magazine]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testscrollPNWMagazine -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:45:58Z" name="afterEachTestMethod" finished-at="2019-01-24T19:46:00Z" duration-ms="2296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testscrollPNWMagazine status=SUCCESS method=TestHomePage.testscrollPNWMagazine()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: testscroll PNW Magazine]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:00Z" name="setUp" finished-at="2019-01-24T19:46:08Z" duration-ms="7772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:08Z" name="startExtent" finished-at="2019-01-24T19:46:08Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testscrollToBusiness()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:08Z" name="initialize" finished-at="2019-01-24T19:46:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testscrollToBusiness()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:08Z" name="testscrollToBusiness" finished-at="2019-01-24T19:46:10Z" duration-ms="2460" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: testscroll To Business]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Business Tech]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testscrollToBusiness -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:10Z" name="afterEachTestMethod" finished-at="2019-01-24T19:46:12Z" duration-ms="1916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testscrollToBusiness status=SUCCESS method=TestHomePage.testscrollToBusiness()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: testscroll To Business]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:12Z" name="setUp" finished-at="2019-01-24T19:46:20Z" duration-ms="7707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:20Z" name="startExtent" finished-at="2019-01-24T19:46:20Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testscrollToGetBusinessNews()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:20Z" name="initialize" finished-at="2019-01-24T19:46:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testscrollToGetBusinessNews()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:20Z" name="testscrollToGetBusinessNews" finished-at="2019-01-24T19:46:23Z" duration-ms="2807" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: testscroll To Get Business News]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Business Tech]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testscrollToGetBusinessNews -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:23Z" name="afterEachTestMethod" finished-at="2019-01-24T19:46:25Z" duration-ms="2619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testscrollToGetBusinessNews status=SUCCESS method=TestHomePage.testscrollToGetBusinessNews()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: testscroll To Get Business News]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:25Z" name="setUp" finished-at="2019-01-24T19:46:34Z" duration-ms="8278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:34Z" name="startExtent" finished-at="2019-01-24T19:46:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testscrollToGetNews()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:34Z" name="initialize" finished-at="2019-01-24T19:46:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testscrollToGetNews()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:34Z" name="testscrollToGetNews" finished-at="2019-01-24T19:46:36Z" duration-ms="2386" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: testscroll To Get News]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Local News]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testscrollToGetNews -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:36Z" name="afterEachTestMethod" finished-at="2019-01-24T19:46:38Z" duration-ms="2401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testscrollToGetNews status=SUCCESS method=TestHomePage.testscrollToGetNews()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: testscroll To Get News]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:38Z" name="setUp" finished-at="2019-01-24T19:46:47Z" duration-ms="8279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:47Z" name="startExtent" finished-at="2019-01-24T19:46:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testscrollToLocal()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:47Z" name="initialize" finished-at="2019-01-24T19:46:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testscrollToLocal()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:47Z" name="testscrollToLocal" finished-at="2019-01-24T19:46:49Z" duration-ms="2504" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: testscroll To Local]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Local News]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testscrollToLocal -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:49Z" name="afterEachTestMethod" finished-at="2019-01-24T19:46:51Z" duration-ms="2113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testscrollToLocal status=SUCCESS method=TestHomePage.testscrollToLocal()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: testscroll To Local]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:46:51Z" name="setUp" finished-at="2019-01-24T19:47:01Z" duration-ms="9331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:01Z" name="initialize" finished-at="2019-01-24T19:47:01Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:01Z" name="startExtent" finished-at="2019-01-24T19:47:01Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testscrollToMyReadingList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testscrollToMyReadingList()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:01Z" name="testscrollToMyReadingList" finished-at="2019-01-24T19:47:03Z" duration-ms="2588" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: testscroll To My Reading List]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Myreading List 1]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testscrollToMyReadingList -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:03Z" name="afterEachTestMethod" finished-at="2019-01-24T19:47:06Z" duration-ms="2295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testscrollToMyReadingList status=SUCCESS method=TestHomePage.testscrollToMyReadingList()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: testscroll To My Reading List]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:06Z" name="setUp" finished-at="2019-01-24T19:47:14Z" duration-ms="8707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SeattleTimes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[The Seattle Times.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:14Z" name="startExtent" finished-at="2019-01-24T19:47:14Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestHomePage.testscrollToSports()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:14Z" name="initialize" finished-at="2019-01-24T19:47:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testscrollToSports()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:14Z" name="testscrollToSports" finished-at="2019-01-24T19:47:17Z" duration-ms="2470" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: testscroll To Sports]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: get Business Tech]]>
+            </line>
+            <line>
+              <![CDATA[TestHomePage: click Burger Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testscrollToSports -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:17Z" name="afterEachTestMethod" finished-at="2019-01-24T19:47:19Z" duration-ms="2232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testscrollToSports status=SUCCESS method=TestHomePage.testscrollToSports()[pri:0, instance:testcases.TestHomePage@7530ad9c] output=TestHomePage: testscroll To Sports]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testcases.TestHomePage@7530ad9c]" started-at="2019-01-24T19:47:19Z" name="generateReport" finished-at="2019-01-24T19:47:19Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testcases.TestHomePage -->
+    </test> <!-- GoToHomePage -->
+  </suite> <!-- Seattle Times App Automation Test -->
+</testng-results>

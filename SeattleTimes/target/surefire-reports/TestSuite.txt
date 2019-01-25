@@ -1,0 +1,104 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 334.508 s <<< FAILURE! - in TestSuite
+testScrollMenuList(testcases.TestHomePage)  Time elapsed: 1.206 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: javax.xml.transform.TransformerException: Extra illegal tokens: 'READING', 'LIST' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 106 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: c7446714-ab3d-4ac6-b81f-450b9cb05d85
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at base.MobileAPI.scrollToElement(MobileAPI.java:420)
+	at pages.HomePage.scrollMenuList(HomePage.java:150)
+	at testcases.TestHomePage.testScrollMenuList(TestHomePage.java:95)
+
+testTapOnBurgerMenu(testcases.TestHomePage)  Time elapsed: 10.057 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: 9efac5c5-e210-471e-b026-fd68111d3e6f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnBurgerMenu(TestHomePage.java:110)
+
+testTapOnLatest(testcases.TestHomePage)  Time elapsed: 10.551 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.55 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: d3c3afe5-7f45-4675-b449-0d007cdcac38
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnLatest(TestHomePage.java:120)
+
+testTapOnTopStories(testcases.TestHomePage)  Time elapsed: 0.522 s  <<< FAILURE!
+java.lang.ClassCastException: class io.appium.java_client.android.AndroidElement cannot be cast to class io.appium.java_client.MobileDriver (io.appium.java_client.android.AndroidElement and io.appium.java_client.MobileDriver are in unnamed module of loader 'app')
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnTopStories(TestHomePage.java:115)
+
+testTapOnTrending(testcases.TestHomePage)  Time elapsed: 10.418 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.41 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-SUVDR7C', ip: '192.168.179.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: cd340ed1-8cf5-429a-92d1-9efc78f0a66f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnTrending(TestHomePage.java:125)
+

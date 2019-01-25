@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Seattle Times App Automation Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="deviceType" value="Emulator"/>
+  <parameter name="OS" value="Android"/>
+  <parameter name="appType" value="Phone"/>
+  <parameter name="appName" value="The Seattle Times.apk"/>
+  <parameter name="moduleName" value="SeattleTimes"/>
+  <parameter name="deviceName" value="Nexus"/>
+  <parameter name="version" value="8.0"/>
+  <test name="GoToHomePage">
+    <classes>
+      <class name="testcases.TestHomePage"/>
+    </classes>
+  </test> <!-- GoToHomePage -->
+  <test name="GoToHomePage(failed)">
+    <classes>
+      <class name="testcases.TestHomePage">
+        <methods>
+          <include name="testTapOnBurgerMenu"/>
+          <include name="testTapOnLatest"/>
+          <include name="initialize"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="testScrollMenuList"/>
+          <include name="testTapOnTrending"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testTapOnTopStories"/>
+        </methods>
+      </class> <!-- testcases.TestHomePage -->
+    </classes>
+  </test> <!-- GoToHomePage(failed) -->
+</suite> <!-- Failed suite [Seattle Times App Automation Test] -->

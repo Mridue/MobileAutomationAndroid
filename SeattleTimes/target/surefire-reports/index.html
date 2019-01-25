@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" class="navigator-link">
+              <span class="suite-name border-failed">Seattle Times App Automation Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Seattle_Times_App_Automation_Test" class="navigator-link ">
+                    <span>C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\target\test-classes\SeattleTimesTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Seattle_Times_App_Automation_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Seattle_Times_App_Automation_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Seattle_Times_App_Automation_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Seattle_Times_App_Automation_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Seattle_Times_App_Automation_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Seattle_Times_App_Automation_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 5 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" class="hide-methods failed suite-Seattle_Times_App_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-Seattle_Times_App_Automation_Test -->
+                      <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" class="show-methods failed suite-Seattle_Times_App_Automation_Test"> (show)</a> <!-- show-methods failed suite-Seattle_Times_App_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Seattle_Times_App_Automation_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testScrollMenuList">testScrollMenuList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testTapOnBurgerMenu">testTapOnBurgerMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testTapOnLatest">testTapOnLatest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testTapOnTopStories">testTapOnTopStories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testTapOnTrending">testTapOnTrending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Seattle_Times_App_Automation_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" class="hide-methods passed suite-Seattle_Times_App_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-Seattle_Times_App_Automation_Test -->
+                      <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" class="show-methods passed suite-Seattle_Times_App_Automation_Test"> (show)</a> <!-- show-methods passed suite-Seattle_Times_App_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Seattle_Times_App_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="test1BurgerButton">test1BurgerButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testBurgerMenuSwipeUpnDown">testBurgerMenuSwipeUpnDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testClickOnEducation">testClickOnEducation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testClickOnTopStories">testClickOnTopStories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testClickOntrending">testClickOntrending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testGetEntertainment">testGetEntertainment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testGetLife">testGetLife</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testGetNationWorld">testGetNationWorld</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testGetOpinion">testGetOpinion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testGetSports">testGetSports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testGetTitle">testGetTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testHomePageSwipeUpnDown">testHomePageSwipeUpnDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testscrollMenuList">testscrollMenuList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testscrollPNWMagazine">testscrollPNWMagazine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testscrollToBusiness">testscrollToBusiness</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testscrollToGetBusinessNews">testscrollToGetBusinessNews</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testscrollToGetNews">testscrollToGetNews</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testscrollToLocal">testscrollToLocal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testscrollToMyReadingList">testscrollToMyReadingList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Seattle_Times_App_Automation_Test" title="testcases.TestHomePage" class="method navigator-link" hash-for-method="testscrollToSports">testscrollToSports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Seattle_Times_App_Automation_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Seattle_Times_App_Automation_Test" class="panel Seattle_Times_App_Automation_Test">
+          <div class="suite-Seattle_Times_App_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TestHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollMenuList">
+                  </a> <!-- testScrollMenuList -->
+                  <span class="method-name">testScrollMenuList</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: javax.xml.transform.TransformerException: Extra illegal tokens: &apos;READING&apos;, &apos;LIST&apos; (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 106 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;DESKTOP-SUVDR7C&apos;, ip: &apos;192.168.179.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: c7446714-ab3d-4ac6-b81f-450b9cb05d85
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at base.MobileAPI.scrollToElement(MobileAPI.java:420)
+	at pages.HomePage.scrollMenuList(HomePage.java:150)
+	at testcases.TestHomePage.testScrollMenuList(TestHomePage.java:95)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTapOnBurgerMenu">
+                  </a> <!-- testTapOnBurgerMenu -->
+                  <span class="method-name">testTapOnBurgerMenu</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;DESKTOP-SUVDR7C&apos;, ip: &apos;192.168.179.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: 9efac5c5-e210-471e-b026-fd68111d3e6f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnBurgerMenu(TestHomePage.java:110)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTapOnLatest">
+                  </a> <!-- testTapOnLatest -->
+                  <span class="method-name">testTapOnLatest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.55 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;DESKTOP-SUVDR7C&apos;, ip: &apos;192.168.179.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: d3c3afe5-7f45-4675-b449-0d007cdcac38
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnLatest(TestHomePage.java:120)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTapOnTopStories">
+                  </a> <!-- testTapOnTopStories -->
+                  <span class="method-name">testTapOnTopStories</span>
+                  <div class="stack-trace">java.lang.ClassCastException: class io.appium.java_client.android.AndroidElement cannot be cast to class io.appium.java_client.MobileDriver (io.appium.java_client.android.AndroidElement and io.appium.java_client.MobileDriver are in unnamed module of loader &apos;app&apos;)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnTopStories(TestHomePage.java:115)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTapOnTrending">
+                  </a> <!-- testTapOnTrending -->
+                  <span class="method-name">testTapOnTrending</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.41 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;DESKTOP-SUVDR7C&apos;, ip: &apos;192.168.179.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, appPackage=com.seattletimes.android.SeattleTimesMobileNews, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.seattletimes.android.SeattleTimesMobileNews, appWaitActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=android.seattletimes.com.seattletimesmobile.activities.MainTabbedActivity, desired={app=C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\src\app\The Seattle Times.apk, platformVersion=8.0, platformName=Android, deviceName=Nexus}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: cd340ed1-8cf5-429a-92d1-9efc78f0a66f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at base.MobileAPI.tapOn(MobileAPI.java:340)
+	at testcases.TestHomePage.testTapOnTrending(TestHomePage.java:125)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Seattle_Times_App_Automation_Test-class-failed -->
+          <div class="suite-Seattle_Times_App_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1BurgerButton">
+                  </a> <!-- test1BurgerButton -->
+                  <span class="method-name">test1BurgerButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBurgerMenuSwipeUpnDown">
+                  </a> <!-- testBurgerMenuSwipeUpnDown -->
+                  <span class="method-name">testBurgerMenuSwipeUpnDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnEducation">
+                  </a> <!-- testClickOnEducation -->
+                  <span class="method-name">testClickOnEducation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnTopStories">
+                  </a> <!-- testClickOnTopStories -->
+                  <span class="method-name">testClickOnTopStories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOntrending">
+                  </a> <!-- testClickOntrending -->
+                  <span class="method-name">testClickOntrending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetEntertainment">
+                  </a> <!-- testGetEntertainment -->
+                  <span class="method-name">testGetEntertainment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLife">
+                  </a> <!-- testGetLife -->
+                  <span class="method-name">testGetLife</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNationWorld">
+                  </a> <!-- testGetNationWorld -->
+                  <span class="method-name">testGetNationWorld</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetOpinion">
+                  </a> <!-- testGetOpinion -->
+                  <span class="method-name">testGetOpinion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSports">
+                  </a> <!-- testGetSports -->
+                  <span class="method-name">testGetSports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTitle">
+                  </a> <!-- testGetTitle -->
+                  <span class="method-name">testGetTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePageSwipeUpnDown">
+                  </a> <!-- testHomePageSwipeUpnDown -->
+                  <span class="method-name">testHomePageSwipeUpnDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testscrollMenuList">
+                  </a> <!-- testscrollMenuList -->
+                  <span class="method-name">testscrollMenuList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testscrollPNWMagazine">
+                  </a> <!-- testscrollPNWMagazine -->
+                  <span class="method-name">testscrollPNWMagazine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testscrollToBusiness">
+                  </a> <!-- testscrollToBusiness -->
+                  <span class="method-name">testscrollToBusiness</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testscrollToGetBusinessNews">
+                  </a> <!-- testscrollToGetBusinessNews -->
+                  <span class="method-name">testscrollToGetBusinessNews</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testscrollToGetNews">
+                  </a> <!-- testscrollToGetNews -->
+                  <span class="method-name">testscrollToGetNews</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testscrollToLocal">
+                  </a> <!-- testscrollToLocal -->
+                  <span class="method-name">testscrollToLocal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testscrollToMyReadingList">
+                  </a> <!-- testscrollToMyReadingList -->
+                  <span class="method-name">testscrollToMyReadingList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testscrollToSports">
+                  </a> <!-- testscrollToSports -->
+                  <span class="method-name">testscrollToSports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Seattle_Times_App_Automation_Test-class-passed -->
+        </div> <!-- panel Seattle_Times_App_Automation_Test -->
+        <div panel-name="test-xml-Seattle_Times_App_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\arifq\Desktop\Java N Selenium\AndroidAutomationProject\SeattleTimes\target\test-classes\SeattleTimesTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Seattle Times App Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;deviceType&quot; value=&quot;Emulator&quot;/&gt;
+  &lt;parameter name=&quot;OS&quot; value=&quot;Android&quot;/&gt;
+  &lt;parameter name=&quot;appType&quot; value=&quot;Phone&quot;/&gt;
+  &lt;parameter name=&quot;appName&quot; value=&quot;The Seattle Times.apk&quot;/&gt;
+  &lt;parameter name=&quot;moduleName&quot; value=&quot;SeattleTimes&quot;/&gt;
+  &lt;parameter name=&quot;deviceName&quot; value=&quot;Nexus&quot;/&gt;
+  &lt;parameter name=&quot;version&quot; value=&quot;8.0&quot;/&gt;
+  &lt;test name=&quot;GoToHomePage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TestHomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GoToHomePage --&gt;
+&lt;/suite&gt; &lt;!-- Seattle Times App Automation Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Seattle_Times_App_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Seattle Times App Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GoToHomePage (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Seattle_Times_App_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Seattle Times App Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Seattle_Times_App_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Seattle Times App Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Seattle_Times_App_Automation_Test');
+function tableData_Seattle_Times_App_Automation_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testTapOnLatest')
+data.setCell(0, 2, 'testcases.TestHomePage')
+data.setCell(0, 3, 10550);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testTapOnTrending')
+data.setCell(1, 2, 'testcases.TestHomePage')
+data.setCell(1, 3, 10415);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testTapOnBurgerMenu')
+data.setCell(2, 2, 'testcases.TestHomePage')
+data.setCell(2, 3, 10055);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testClickOnTopStories')
+data.setCell(3, 2, 'testcases.TestHomePage')
+data.setCell(3, 3, 4941);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testscrollPNWMagazine')
+data.setCell(4, 2, 'testcases.TestHomePage')
+data.setCell(4, 3, 4750);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetSports')
+data.setCell(5, 2, 'testcases.TestHomePage')
+data.setCell(5, 3, 3222);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetEntertainment')
+data.setCell(6, 2, 'testcases.TestHomePage')
+data.setCell(6, 3, 3082);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetOpinion')
+data.setCell(7, 2, 'testcases.TestHomePage')
+data.setCell(7, 3, 3079);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testBurgerMenuSwipeUpnDown')
+data.setCell(8, 2, 'testcases.TestHomePage')
+data.setCell(8, 3, 2900);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetLife')
+data.setCell(9, 2, 'testcases.TestHomePage')
+data.setCell(9, 3, 2819);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testscrollToGetBusinessNews')
+data.setCell(10, 2, 'testcases.TestHomePage')
+data.setCell(10, 3, 2807);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testscrollToMyReadingList')
+data.setCell(11, 2, 'testcases.TestHomePage')
+data.setCell(11, 3, 2588);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testHomePageSwipeUpnDown')
+data.setCell(12, 2, 'testcases.TestHomePage')
+data.setCell(12, 3, 2508);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testscrollToLocal')
+data.setCell(13, 2, 'testcases.TestHomePage')
+data.setCell(13, 3, 2504);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testscrollToSports')
+data.setCell(14, 2, 'testcases.TestHomePage')
+data.setCell(14, 3, 2470);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testscrollToBusiness')
+data.setCell(15, 2, 'testcases.TestHomePage')
+data.setCell(15, 3, 2460);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testscrollToGetNews')
+data.setCell(16, 2, 'testcases.TestHomePage')
+data.setCell(16, 3, 2386);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testClickOntrending')
+data.setCell(17, 2, 'testcases.TestHomePage')
+data.setCell(17, 3, 2171);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGetTitle')
+data.setCell(18, 2, 'testcases.TestHomePage')
+data.setCell(18, 3, 2147);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testGetNationWorld')
+data.setCell(19, 2, 'testcases.TestHomePage')
+data.setCell(19, 3, 2143);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testscrollMenuList')
+data.setCell(20, 2, 'testcases.TestHomePage')
+data.setCell(20, 3, 2056);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testScrollMenuList')
+data.setCell(21, 2, 'testcases.TestHomePage')
+data.setCell(21, 3, 1190);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testClickOnEducation')
+data.setCell(22, 2, 'testcases.TestHomePage')
+data.setCell(22, 3, 1110);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test1BurgerButton')
+data.setCell(23, 2, 'testcases.TestHomePage')
+data.setCell(23, 3, 693);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testTapOnTopStories')
+data.setCell(24, 2, 'testcases.TestHomePage')
+data.setCell(24, 3, 521);
+window.suiteTableData['Seattle_Times_App_Automation_Test']= { tableData: data, tableDiv: 'times-div-Seattle_Times_App_Automation_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Seattle_Times_App_Automation_Test">
+              </div> <!-- times-div-Seattle_Times_App_Automation_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Seattle_Times_App_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Seattle Times App Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testscrollPNWMagazine</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: testscroll PNW Magazine</span>
+                <span class="reporter-method-output">TestHomePage: get Pnw Magazine</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testscrollToGetNews</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: testscroll To Get News</span>
+                <span class="reporter-method-output">TestHomePage: get Local News</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testscrollMenuList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: testscroll Menu List</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+                <span class="reporter-method-output">TestHomePage: get Menu Items</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOntrending</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Click Ontrending</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetOpinion</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Get Opinion</span>
+                <span class="reporter-method-output">TestHomePage: get Opinion</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetEntertainment</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Get Entertainment</span>
+                <span class="reporter-method-output">TestHomePage: get Entertainment</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Get Title</span>
+                <span class="reporter-method-output">TestHomePage: get Title</span>
+                <span class="reporter-method-output">TestHomePage: click On Latest</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testscrollToMyReadingList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: testscroll To My Reading List</span>
+                <span class="reporter-method-output">TestHomePage: get Myreading List 1</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testscrollToSports</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: testscroll To Sports</span>
+                <span class="reporter-method-output">TestHomePage: get Business Tech</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetLife</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Get Life</span>
+                <span class="reporter-method-output">TestHomePage: get Life</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetSports</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Get Sports</span>
+                <span class="reporter-method-output">TestHomePage: get Sports</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnEducation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Click On Education</span>
+                <span class="reporter-method-output">TestHomePage: click On Education</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testBurgerMenuSwipeUpnDown</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Burger Menu Swipe Upn Down</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test1BurgerButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test 1 Burger Button</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testHomePageSwipeUpnDown</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Home Page Swipe Upn Down</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testscrollToBusiness</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: testscroll To Business</span>
+                <span class="reporter-method-output">TestHomePage: get Business Tech</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testscrollToLocal</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: testscroll To Local</span>
+                <span class="reporter-method-output">TestHomePage: get Local News</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetNationWorld</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Get Nation World</span>
+                <span class="reporter-method-output">TestHomePage: get Nation World</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnTopStories</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Click On Top Stories</span>
+                <span class="reporter-method-output">TestHomePage: click On Top Stories</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testscrollToGetBusinessNews</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: testscroll To Get Business News</span>
+                <span class="reporter-method-output">TestHomePage: get Business Tech</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testScrollMenuList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Scroll Menu List</span>
+                <span class="reporter-method-output">TestHomePage: click Burger Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTapOnTopStories</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Tap On Top Stories</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTapOnBurgerMenu</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Tap On Burger Menu</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTapOnTrending</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Tap On Trending</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTapOnLatest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Tap On Latest</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Seattle_Times_App_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Seattle_Times_App_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@963176)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.test1BurgerButton())</span>
+                <span class="method-start">6990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">7008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1BurgerButton</span>
+                <span class="method-start">7039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=test1BurgerButton status=SUCCESS method=TestHomePage.test1BurgerButton()[pri:0, ins...)</span>
+                <span class="method-start">7733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">9887 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testBurgerMenuSwipeUpnDown())</span>
+                <span class="method-start">16971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">16972 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBurgerMenuSwipeUpnDown</span>
+                <span class="method-start">16973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testBurgerMenuSwipeUpnDown status=SUCCESS method=TestHomePage.testBurgerMenuSwipeUp...)</span>
+                <span class="method-start">19873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">21421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testClickOnEducation())</span>
+                <span class="method-start">29329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">29330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnEducation</span>
+                <span class="method-start">29330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnEducation status=SUCCESS method=TestHomePage.testClickOnEducation()[pri:...)</span>
+                <span class="method-start">30440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">32255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testClickOnTopStories())</span>
+                <span class="method-start">40410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">40411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnTopStories</span>
+                <span class="method-start">40411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnTopStories status=SUCCESS method=TestHomePage.testClickOnTopStories()[pr...)</span>
+                <span class="method-start">45352 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">47221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testClickOntrending())</span>
+                <span class="method-start">54386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">54387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOntrending</span>
+                <span class="method-start">54388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOntrending status=SUCCESS method=TestHomePage.testClickOntrending()[pri:0,...)</span>
+                <span class="method-start">56560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">58555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testGetEntertainment())</span>
+                <span class="method-start">65609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">65610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetEntertainment</span>
+                <span class="method-start">65611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetEntertainment status=SUCCESS method=TestHomePage.testGetEntertainment()[pri:...)</span>
+                <span class="method-start">68693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">70524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testGetLife())</span>
+                <span class="method-start">77702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">77702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetLife</span>
+                <span class="method-start">77703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetLife status=SUCCESS method=TestHomePage.testGetLife()[pri:0, instance:testca...)</span>
+                <span class="method-start">80522 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">82294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testGetNationWorld())</span>
+                <span class="method-start">89384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">89385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetNationWorld</span>
+                <span class="method-start">89386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetNationWorld status=SUCCESS method=TestHomePage.testGetNationWorld()[pri:0, i...)</span>
+                <span class="method-start">91529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">93517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testGetOpinion())</span>
+                <span class="method-start">100881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">100882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetOpinion</span>
+                <span class="method-start">100883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetOpinion status=SUCCESS method=TestHomePage.testGetOpinion()[pri:0, instance:...)</span>
+                <span class="method-start">103963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">105831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testGetSports())</span>
+                <span class="method-start">113130 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">113131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetSports</span>
+                <span class="method-start">113132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetSports status=SUCCESS method=TestHomePage.testGetSports()[pri:0, instance:te...)</span>
+                <span class="method-start">116355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">118242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testGetTitle())</span>
+                <span class="method-start">125283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">125284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetTitle</span>
+                <span class="method-start">125285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetTitle status=SUCCESS method=TestHomePage.testGetTitle()[pri:0, instance:test...)</span>
+                <span class="method-start">127432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">129130 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testHomePageSwipeUpnDown())</span>
+                <span class="method-start">136204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">136204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomePageSwipeUpnDown</span>
+                <span class="method-start">136205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testHomePageSwipeUpnDown status=SUCCESS method=TestHomePage.testHomePageSwipeUpnDow...)</span>
+                <span class="method-start">138713 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">140464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testScrollMenuList())</span>
+                <span class="method-start">147547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">147548 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testScrollMenuList</span>
+                <span class="method-start">147549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testScrollMenuList status=FAILURE method=TestHomePage.testScrollMenuList()[pri:0, i...)</span>
+                <span class="method-start">148753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">152751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testTapOnBurgerMenu())</span>
+                <span class="method-start">159796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">159797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTapOnBurgerMenu</span>
+                <span class="method-start">159797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testTapOnBurgerMenu status=FAILURE method=TestHomePage.testTapOnBurgerMenu()[pri:0,...)</span>
+                <span class="method-start">169854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">174092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testTapOnLatest())</span>
+                <span class="method-start">181703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">181703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTapOnLatest</span>
+                <span class="method-start">181704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testTapOnLatest status=FAILURE method=TestHomePage.testTapOnLatest()[pri:0, instanc...)</span>
+                <span class="method-start">192256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">196153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testTapOnTopStories())</span>
+                <span class="method-start">203406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">203407 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTapOnTopStories</span>
+                <span class="method-start">203409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testTapOnTopStories status=FAILURE method=TestHomePage.testTapOnTopStories()[pri:0,...)</span>
+                <span class="method-start">203931 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">207631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testTapOnTrending())</span>
+                <span class="method-start">214841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">214841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTapOnTrending</span>
+                <span class="method-start">214842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testTapOnTrending status=FAILURE method=TestHomePage.testTapOnTrending()[pri:0, ins...)</span>
+                <span class="method-start">225258 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">229165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testscrollMenuList())</span>
+                <span class="method-start">236631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">236632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testscrollMenuList</span>
+                <span class="method-start">236632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testscrollMenuList status=SUCCESS method=TestHomePage.testscrollMenuList()[pri:0, i...)</span>
+                <span class="method-start">238688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">240454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testscrollPNWMagazine())</span>
+                <span class="method-start">247721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">247722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testscrollPNWMagazine</span>
+                <span class="method-start">247722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testscrollPNWMagazine status=SUCCESS method=TestHomePage.testscrollPNWMagazine()[pr...)</span>
+                <span class="method-start">252473 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">254769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testscrollToBusiness())</span>
+                <span class="method-start">262541 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">262542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testscrollToBusiness</span>
+                <span class="method-start">262542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testscrollToBusiness status=SUCCESS method=TestHomePage.testscrollToBusiness()[pri:...)</span>
+                <span class="method-start">265002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">266918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testscrollToGetBusinessNews())</span>
+                <span class="method-start">274625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">274626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testscrollToGetBusinessNews</span>
+                <span class="method-start">274626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testscrollToGetBusinessNews status=SUCCESS method=TestHomePage.testscrollToGetBusin...)</span>
+                <span class="method-start">277433 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">280052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testscrollToGetNews())</span>
+                <span class="method-start">288330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">288330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testscrollToGetNews</span>
+                <span class="method-start">288331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testscrollToGetNews status=SUCCESS method=TestHomePage.testscrollToGetNews()[pri:0,...)</span>
+                <span class="method-start">290717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">293118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testscrollToLocal())</span>
+                <span class="method-start">301397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">301397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testscrollToLocal</span>
+                <span class="method-start">301398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testscrollToLocal status=SUCCESS method=TestHomePage.testscrollToLocal()[pri:0, ins...)</span>
+                <span class="method-start">303902 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">306015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testscrollToMyReadingList())</span>
+                <span class="method-start">315346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">315346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testscrollToMyReadingList</span>
+                <span class="method-start">315347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testscrollToMyReadingList status=SUCCESS method=TestHomePage.testscrollToMyReadingL...)</span>
+                <span class="method-start">317935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, Phone, Emulator, Nexus, 8.0, SeattleTimes, The Seattle Times.apk)</span>
+                <span class="method-start">320230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testscrollToSports())</span>
+                <span class="method-start">328937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">328938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testscrollToSports</span>
+                <span class="method-start">328939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testscrollToSports status=SUCCESS method=TestHomePage.testscrollToSports()[pri:0, i...)</span>
+                <span class="method-start">331409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">333732 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
