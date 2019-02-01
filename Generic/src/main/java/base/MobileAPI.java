@@ -24,6 +24,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.security.Key;
 import java.text.DateFormat;
@@ -171,6 +172,43 @@ public class MobileAPI {
         return ad;
 
     }
+    public AppiumDriver setUpIosWebAppEnv(String deviceName, String version, String browserName) throws MalformedURLException, MalformedURLException {
+
+        /**
+         * {
+         *   "platformName": "iOS",
+         *   "platformVersion": "12.1",
+         *   "deviceName": "iPhone XS Max",
+         *   "automationName": "XCUITest",
+         *   "browserName": "Safari"
+         * }
+         * */
+
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
+        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+        cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
+        cap.setCapability(MobileCapabilityType.BROWSER_NAME, browserName);
+
+        /*remoteWebDriver  = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+        remoteWebDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);*/
+        ad  = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        return ad;
+
+    } public AppiumDriver setUpAndroidWebAppEnv(String deviceName,String version, String browserName) throws MalformedURLException {
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
+        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+        // cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());\
+        cap.setCapability(MobileCapabilityType.BROWSER_NAME, browserName);
+
+        ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        return ad;
+    }
 
     protected static void skip() throws SkipException {
         throw new SkipException("Skipping this test");
@@ -285,6 +323,7 @@ public class MobileAPI {
     public void touch(AppiumDriver ad, WebElement locator) {
         TouchAction touchAction = new TouchAction(ad);
         touchAction.moveTo(locator);
+        ad.findElementByAccessibilityId("");
     }
 
     private Dimension getDemensions(AppiumDriver ad) {
@@ -431,4 +470,83 @@ public class MobileAPI {
     public static MobileElement element(WebElement webElement) {
         return w(webElement);
     }*/
+
+
+//    @Parameters({"OS","appType","deviceType", "deviceName","version", "moduleName","appName", "browserName","platformType", "url" })
+//    @BeforeMethod
+//    public void setUp(@Optional("android")String OS,@Optional("mobile") String appType,@Optional("real device") String deviceType,
+//                      @Optional("") String deviceName, @Optional("") String version,@Optional("") String moduleName,
+//                      @Optional("") String appName,@Optional("") String browserName,@Optional("") String platformType, @Optional("") String url)throws IOException,InterruptedException{
+//
+//        if(OS.equalsIgnoreCase("ios")){
+//            if(platformType.contains("iPhone")){
+//                appDirectory = new File(moduleName+"src/app");
+//                findApp = new File(appDirectory,"UICatalog6.1.app.zip");
+//
+//                if(deviceType.equalsIgnoreCase("RealDevice")){
+//                    ad = setUpiOsEnv(deviceName,version);
+//                }else if (deviceType.equalsIgnoreCase("Simulator")){
+//
+//                    /* ad = setUpiOsEnv(deviceName, version);*/
+//
+//                    if(appType.equalsIgnoreCase("Native")) {
+//                        ad = setUpiOsEnv(deviceName, version);
+//                    }
+//                    else if(appType.equalsIgnoreCase("iOSWeb")){
+//
+//                        ad = setUpIosWebAppEnv(deviceName, version, browserName);
+//                        ad.get(url);
+//
+//                        /* remoteWebDriver = setUpIosWebAppEnv(deviceName, version, browserName);
+//                        remoteWebDriver.get(url);*/
+//
+//
+//                    }
+//                }
+//
+//
+//            }else if(platformType.equalsIgnoreCase("iPad 2")){
+//                appDirectory = new File(moduleName+"src/app");
+//                findApp = new File(appDirectory,"UICatalog6.1.app.zip");
+//                if(deviceType.contains("RealDevice")){
+//                    ad = setUpiOsEnv(deviceName,version);
+//                }else if (deviceType.equalsIgnoreCase("Simulator")){
+//                    ad = setUpiOsEnv(deviceName,version);
+//                }
+//            }
+//
+//        }else if(OS.equalsIgnoreCase("Android")){
+//            if(platformType.contains("Phone")){
+//                /*appDirectory = new File("src/app");
+//                findApp = new File(appDirectory,appName);*/
+//                if(deviceType.equalsIgnoreCase("RealDevice")){
+//                    appDirectory = new File("src/app");
+//                    findApp = new File(appDirectory,appName);
+//                    ad = setUpAndroidEnv(deviceName,version);
+//                }else if (deviceType.equalsIgnoreCase("Emulator")){
+//                    if(browserName.equalsIgnoreCase("")){
+//                        appDirectory = new File("src/app");
+//                        findApp = new File(appDirectory,appName);
+//                        ad =setUpAndroidEnv(deviceName,version);}
+//
+//                    else if(browserName.equalsIgnoreCase("Chrome")){
+//
+//                        ad = setUpAndroidWebAppEnv(deviceName, version, browserName);
+//
+//                    }
+//                    else if (browserName.equalsIgnoreCase("Browser")){
+//
+//                        ad = setUpAndroidWebAppEnv(deviceName, version, browserName);
+//                    }
+//                }
+//
+//            }else if(OS.equalsIgnoreCase("Tablets")){
+//                if(deviceType.equalsIgnoreCase("RealDevice")){
+//                    ad = setUpAndroidEnv(deviceName,version);
+//                }else if (deviceType.equalsIgnoreCase("Emulator")){
+//                    ad = setUpAndroidEnv(deviceName,version);
+//                }
+//            }
+//        }
+//    }
 }

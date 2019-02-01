@@ -18,15 +18,31 @@
       <class name="testcases.TestHomePage">
         <methods>
           <include name="testTapOnBurgerMenu"/>
-          <include name="testTapOnLatest"/>
-          <include name="initialize"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="testScrollMenuList"/>
+          <include name="testscrollToMyReadingList"/>
+          <include name="testClickOnEducation"/>
           <include name="testTapOnTrending"/>
-          <include name="startExtent"/>
+          <include name="testscrollToGetBusinessNews"/>
+          <include name="testBurgerMenuSwipeUpnDown"/>
+          <include name="testGetNationWorld"/>
+          <include name="testTapOnLatest"/>
+          <include name="testClickOnTopStories"/>
+          <include name="testscrollToSports"/>
+          <include name="testScrollMenuList"/>
+          <include name="testscrollToBusiness"/>
+          <include name="testGetLife"/>
+          <include name="testHomePageSwipeUpnDown"/>
+          <include name="testscrollToLocal"/>
+          <include name="testGetSports"/>
+          <include name="extentSetup"/>
+          <include name="test1BurgerButton"/>
+          <include name="testGetTitle"/>
+          <include name="testClickOntrending"/>
           <include name="setUp"/>
-          <include name="afterEachTestMethod"/>
+          <include name="testGetOpinion"/>
+          <include name="testscrollPNWMagazine"/>
+          <include name="testscrollToGetNews"/>
+          <include name="testGetEntertainment"/>
+          <include name="testscrollMenuList"/>
           <include name="testTapOnTopStories"/>
         </methods>
       </class> <!-- testcases.TestHomePage -->
